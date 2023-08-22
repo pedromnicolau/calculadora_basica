@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(27, 27, 27);
+    margin-top: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body::after {
+    content: "";
+    background-image: url("https://www.bemcolar.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/p/a/papel-de-parede-adesivo-formula-matematica-geometria-calculo-infantil.jpg");
+    opacity: 0.15;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+input {
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+}
+
+button {
+    font-size: 25px;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+.borda {
+    background-color: #ccffb3;
+    border-radius: 20px;
+    font-size: 30px;
+    position: absolute;
+    padding: 20px;
+    border: solid 5px rgba(3, 105, 3, 0.747);
+}
